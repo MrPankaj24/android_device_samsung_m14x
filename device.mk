@@ -21,4 +21,4 @@ $(call inherit-product, device/samsung/universal8535-common/common.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlay_m14
+    FrameworksResOverlay_m14x
