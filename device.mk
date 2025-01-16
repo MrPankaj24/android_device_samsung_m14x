@@ -25,10 +25,10 @@ PRODUCT_PACKAGES += \
     
 # Load kernel firmwares
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/firmware/ft8720_m14x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/ft8720_m14x.bin \
-    $(DEVICE_PATH)/firmware/ft8720_m14x_ramtest.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/ft8720_m14x_ramtest.bin \
-    $(DEVICE_PATH)/firmware/nt36672_m14x_csot.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/nt36672_m14x_csot.bin \
-    $(DEVICE_PATH)/firmware/nt36672_m14x_csot_mp.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/nt36672_m14x_csot_mp.bin
+    $(DEVICE_PATH)/firmware/ft8720_m14x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/ft8720_m14x.bin \
+    $(DEVICE_PATH)/firmware/ft8720_m14x_ramtest.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/ft8720_m14x_ramtest.bin \
+    $(DEVICE_PATH)/firmware/nt36672_m14x_csot.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/nt36672_m14x_csot.bin \
+    $(DEVICE_PATH)/firmware/nt36672_m14x_csot_mp.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/nt36672_m14x_csot_mp.bin
     
 # Copy kernel firmare to recovery
 PRODUCT_COPY_FILES += \
