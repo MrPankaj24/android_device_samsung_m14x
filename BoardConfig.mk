@@ -20,14 +20,13 @@ DEVICE_PATH := device/samsung/m14x
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG := s5e8535-m14xnsxx_defconfig
+TARGET_KERNEL_CONFIG := vendor/m14x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/s5e8535
-
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := m14x
+
+BOARD_NAME := SRPVJ17B005
 
 # Kernel modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -37,6 +36,3 @@ RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
 
 # Inherit from the common tree
 include device/samsung/universal8535-common/BoardConfigCommon.mk
-
-# Inherit optional vendor BoardConfig
-include vendor/samsung/universal8535/BoardConfigVendor.mk
