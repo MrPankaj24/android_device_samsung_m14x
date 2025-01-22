@@ -1,0 +1,23 @@
+# Unpinned blobs from m14xnsxx-user 14 UP1A.231005.007 M146BXXU5CXE2 release-keys
+
+vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
+vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc
+vendor/firmware/abov/a96t396_m14x_main.bin
+vendor/firmware/abov/a96t396_m14x_sub.bin
+vendor/firmware/ft8720_m14x.bin
+vendor/firmware/ft8720_m14x_ramtest.bin
+vendor/firmware/nt36672_m14x_csot.bin
+vendor/firmware/nt36672_m14x_csot_mp.bin
+vendor/firmware/spkamp_sma1305.bin
+vendor/lib/libucm_tlc_comm.so
+vendor/lib/libucm_tlc_direct_comm.so
+vendor/lib/libucm_tlc_tz_esecomm.so
+vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
+vendor/lib/vendor.samsung.hardware.tlc.ucm@2.0.so
+vendor/lib64/libucm_tlc_comm.so
+vendor/lib64/libucm_tlc_direct_comm.so
+vendor/lib64/libucm_tlc_tz_esecomm.so
+vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0-impl.so
+vendor/lib64/vendor.samsung.hardware.tlc.ucm@2.0.so
+vendor/tee/00000000-0000-0000-0000-000048444350
+vendor/tee/00000000-0000-0000-0000-657365636f6d
