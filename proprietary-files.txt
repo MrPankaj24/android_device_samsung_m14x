@@ -1,4 +1,4 @@
-# Unpinned blobs from m14xnsxx-user 14 UP1A.231005.007 M146BXXU5CXE2 release-keys
+# Unpinned blobs from m14xnsxx-user 14 UP1A.231005.007 M146BXXU8CYA1 release-keys
 
 # TLC
 vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@2.0-service
