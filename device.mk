@@ -20,8 +20,7 @@ DEVICE_PATH := device/samsung/m14x
 $(call inherit-product, device/samsung/universal8535-common/common.mk)
 
 # Overlays
-PRODUCT_PACKAGES += \
-    FrameworksResOverlay_m14x
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
     
 # Load kernel firmwares
 PRODUCT_COPY_FILES += \
