@@ -37,3 +37,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/firmware/ft8720_m14x_ramtest.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft8720_m14x_ramtest.bin \
     $(VENDOR_PATH)/proprietary/vendor/firmware/nt36672_m14x_csot.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m14x_csot.bin \
     $(VENDOR_PATH)/proprietary/vendor/firmware/nt36672_m14x_csot_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m14x_csot_mp.bin
+
+# Inherit from the m14x vendor
+include vendor/samsung/m14x/m14x-vendor.mk

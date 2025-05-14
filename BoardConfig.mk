@@ -37,8 +37,8 @@ RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
 # Prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Inherit from the common tree
+## Inherit from the common tree
 include device/samsung/universal8535-common/BoardConfigCommon.mk
 
 # Inherit from the m14x vendor
-include vendor/samsung/m14x/m14x-vendor.mk
+include vendor/samsung/m14x/BoardConfigVendor.mk
