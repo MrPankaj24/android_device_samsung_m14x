@@ -16,6 +16,15 @@
 
 DEVICE_PATH := device/samsung/m14x
 
+## Inherit from the common tree
+include device/samsung/universal8535-common/BoardConfigCommon.mk
+
+# Inherit from the m14x vendor
+include vendor/samsung/m14x/BoardConfigVendor.mk
+
+# Board
+BOARD_NAME := SRPVJ17B005
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
@@ -23,22 +32,14 @@ TARGET_SCREEN_DENSITY := 450
 TARGET_KERNEL_CONFIG := m14x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/s5e8535
 
-# OTA assert
-TARGET_OTA_ASSERT_DEVICE := m14x
-
-BOARD_NAME := SRPVJ17B005
-
 # Kernel modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD)
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := m14x
+
 # Prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-## Inherit from the common tree
-include device/samsung/universal8535-common/BoardConfigCommon.mk
-
-# Inherit from the m14x vendor
-include vendor/samsung/m14x/BoardConfigVendor.mk
