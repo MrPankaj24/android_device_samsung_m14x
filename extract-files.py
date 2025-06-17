@@ -21,6 +21,7 @@ from extract_utils.main import (
 namespace_imports = [
     'vendor/samsung/universal8535-common',
     'device/samsung/universal8535-common',
+    'hardware/samsung',
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
