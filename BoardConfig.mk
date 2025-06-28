@@ -16,8 +16,8 @@
 
 DEVICE_PATH := device/samsung/m14x
 
-## Inherit from the common tree
-include device/samsung/universal8535-common/BoardConfigCommon.mk
+# Inherit from the common tree
+include device/samsung/s5e8535-common/BoardConfigCommon.mk
 
 # Inherit from the m14x vendor
 include vendor/samsung/m14x/BoardConfigVendor.mk

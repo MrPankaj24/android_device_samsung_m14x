@@ -19,7 +19,7 @@ DEVICE_PATH := device/samsung/m14x
 VENDOR_PATH := vendor/samsung/m14x
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/universal8535-common/common.mk)
+$(call inherit-product, device/samsung/s5e8535-common/common.mk)
 
 # Inherit from the m14x vendor
 $(call inherit-product, vendor/samsung/m14x/m14x-vendor.mk)
