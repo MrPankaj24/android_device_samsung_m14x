@@ -38,7 +38,7 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="m14xnsxx-user 14 UP1A.231005.007 M146BXXS8CYB2 release-keys" \
-    BuildFingerprint=samsung/m14xnsxx/essi:14/UP1A.231005.007/M146BXXS8CYB2:user/release-keys \
+    BuildDesc="m14xnsxx-user 14 UP1A.231005.007 M146BXXU8DYF5 release-keys" \
+    BuildFingerprint=samsung/m14xnsxx/essi:14/UP1A.231005.007/M146BXXU8DYF5:user/release-keys \
     DeviceProduct=m14xnsxx \
     SystemName=m14xnsxx
