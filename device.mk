@@ -23,6 +23,11 @@ $(call inherit-product, device/samsung/s5e8535-common/common.mk)
 
 # Inherit from the m14x vendor
 $(call inherit-product, vendor/samsung/m14x/m14x-vendor.mk)
+
+# Audio
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml
     
 # Load kernel firmwares
 PRODUCT_COPY_FILES += \
