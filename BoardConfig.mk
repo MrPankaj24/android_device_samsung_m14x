@@ -29,9 +29,7 @@ BOARD_NAME := SRPVJ17B005
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG += \
-    m14x_defconfig \
-    permissive.config
+TARGET_KERNEL_CONFIG := m14x_defconfig
 
 TARGET_KERNEL_SOURCE := kernel/samsung/s5e8535
 
