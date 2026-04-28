@@ -21,3 +21,6 @@ include device/samsung/s5e8535-common/BoardConfigCommon.mk
 
 # Board
 BOARD_NAME := SRPVJ17B005
+
+# Kernel
+TARGET_KERNEL_CONFIG := m14x_defconfig
