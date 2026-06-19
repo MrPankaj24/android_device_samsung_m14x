@@ -1,2 +1,19 @@
 ## Bluetooth
 bluetooth.device.default_name=Galaxy M14 5G
+
+## NFC
+ro.vendor.nfc.feature.chipname=NXP_SN100U
+ro.vendor.nfc.support.advancedsetting=false
+ro.vendor.nfc.support.autoselect=true
+ro.vendor.nfc.support.defaultaid=true
+ro.vendor.nfc.support.nonaid=true
+ro.vendor.nfc.support.othercategory=true
+ro.vendor.nfc.support.uicc=true
+ro.camera.notify_nfc=1
+ro.vendor.nfc.support.ese=false
+ro.vendor.nfc.info.antpos=2
+ro.vendor.nfc.info.antposX=27.2
+ro.vendor.nfc.info.antposY=30
+ro.vendor.nfc.info.deviceWidth=77.2
+ro.vendor.nfc.info.deviceHeight=166.8
+ro.vendor.nfc.info.deviceFoldable=false
