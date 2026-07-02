@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m14x.mk
+    $(LOCAL_DIR)/matrixx_m14x.mk
