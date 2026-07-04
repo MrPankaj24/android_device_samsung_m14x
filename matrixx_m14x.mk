@@ -28,8 +28,7 @@ WITH_BCR := true
 # Google Services & UI Packages
 WITH_GMS := true
 TARGET_INCLUDE_PIXEL_LAUNCHER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-PRODUCT_NO_CAMERA := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 # Display Graphics & UI Performance Tuning (Optimized for 90Hz Panel)
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
