@@ -5,7 +5,7 @@
 #
 
 # Inherit from Project Matrixx common configuration
-$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
+$(call inherit-product, vendor/matrixx/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/m14x/device.mk)
